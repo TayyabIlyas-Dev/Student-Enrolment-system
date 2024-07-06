@@ -1,0 +1,24 @@
+{
+  "name": "tli-student-enrollment-system-program",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tayyab",
+  "license": "ISC",
+  "keywords": ["student","enrollment","system"],
+  "description": "Student enrollment system",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.3.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
